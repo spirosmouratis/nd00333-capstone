@@ -39,7 +39,7 @@ Although in the extra suggestions we could definitely apply feature selection as
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search<br>
 We start by setting up the train.py file where we load split in test and train data and we prepare our data b converting our categorical data to ints and then to dummy vars so we can apply our logistic regression model since log reg is not dealing directly with categorical data as a tree would do. We use stratify because we have an imbalanced datset when it comes to our target variable and we want to have a nice distribution of both classes in our train and test sets On the hyperparameter side we use max_itter as 1000 which is the amount of iterations for the log reg. And C indicated the inverse of regularisation, It’s a penalty term, meant to disincentivize and regulate against Overfitting.
 
 The random parameter sampler will choose randomly parameters from the potential parameter space and it is not exahustive like the complete grid parameter sampling. That is decreasing dramatically the time of the training while keeping the accuracy of the model high enough to solve common industry problems.
