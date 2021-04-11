@@ -14,8 +14,18 @@ The problem in hand is one of the most common machine learning problem to solve 
 ### Overview
 *TODO*: Explain about the data you are using and where you got it from.
 
+As mentioned before the dataset is from a kaggle published problem to solve. <br>
+I tried to load the dataset in my google drive and then access it from the notebook but I had issues with that so <br>
+as can be seen in the screeshot below I have added the dataset manually in the azure ML studio. <br>
+
+The dataset contains only numerical input variables which are the result of a PCA transformation. <br>
+Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise. <br>
+
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+
+As said before the task is to identify fraudulent trasnactions. Since the datase thas already been preprocessed we will be using all the columns.<br>
+Although in the extra suggestions we could definitely apply feature selection as a step. <br>
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
