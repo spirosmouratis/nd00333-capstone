@@ -58,3 +58,9 @@ Although in the extra suggestions we could definitely apply feature selection as
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+Feature engineering.
+Feature importance.
+Feature selection.
+Feature corelation analysis.
+
