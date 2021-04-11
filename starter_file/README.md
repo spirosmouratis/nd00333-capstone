@@ -3,6 +3,8 @@
 # Your Project Title Here
 
 *TODO:* Write a short introduction to your project.
+The project is not an original idea. It is coming from a kaggle compeition https://www.kaggle.com/mlg-ulb/creditcardfraud. <br>
+The problem in hand is one of the most common machine learning problem to solve in the financial world: Is a transaction fraudulent or not? <br>
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
