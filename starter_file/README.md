@@ -30,8 +30,12 @@ Although in the extra suggestions we could definitely apply feature selection as
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
 
+The dataset is quire large (140Mb csv file). I tried to upload it in my google drive and feed it from a link but there issues with the format. <br>
+So I did load the dataset manualy in the Azure Studio dataset section.
+
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
@@ -40,7 +44,7 @@ Although in the extra suggestions we could definitely apply feature selection as
 
 ## Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search<br>
-We start by setting up the train.py file where we load split in test and train data and we prepare our data b converting our categorical data to ints and then to dummy vars so we can apply our logistic regression model since log reg is not dealing directly with categorical data as a tree would do. We use stratify because we have an imbalanced datset when it comes to our target variable and we want to have a nice distribution of both classes in our train and test sets On the hyperparameter side we use max_itter as 1000 which is the amount of iterations for the log reg. And C indicated the inverse of regularisation, It’s a penalty term, meant to disincentivize and regulate against Overfitting.
+We start by setting up the train.py file where we load split in test and train data and we prepare our data b converting our categorical data to ints and then to dummy vars so we can apply our logistic regression model since log reg is not dealing directly with categorical data as a tree would do. We use stratify because we have an imbalanced datset when it comes to our target variable and we want to have a nice distribution of both classes in our train and test sets On the hyperparameter side we use max_itter as 1000 or 100 which is the amount of iterations for the log reg. And C indicated the inverse of regularisation, It’s a penalty term, meant to disincentivize and regulate against Overfitting.
 
 The random parameter sampler will choose randomly parameters from the potential parameter space and it is not exahustive like the complete grid parameter sampling. That is decreasing dramatically the time of the training while keeping the accuracy of the model high enough to solve common industry problems.
 
