@@ -103,7 +103,8 @@ Before the deployment of the model we can save the environment dependencies. <br
 ## Screen Recording
 
 This is the link to the screencast.<br>
-https://drive.google.com/file/d/1ghd4Qh8tEFSXj4QUbffJQ4WRME7ed_J6/view?usp=sharing 
+https://drive.google.com/file/d/1Mkth-x_EM2Bc3k7CvAfY5Qh8iXvkHt63/view?usp=sharing
+
 
 ## Standout Suggestions
 
