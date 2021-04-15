@@ -1,5 +1,11 @@
 
-# Your Project Title Here
+# Fraud Detection of Transactions With Azure ML
+
+The financial industry is shifting currently towards machine learning solutions and is trying to become data driven. <br>
+With that shift, previously manual tasks are being passed down to machine learning models. <br>
+One of these tasks is being able to detect if a transaction is fraudulent or not. <br>
+Each row of the dataset 
+
 
 The project is not an original idea. It is coming from a kaggle compeition https://www.kaggle.com/mlg-ulb/creditcardfraud. <br>
 The problem in hand is one of the most common machine learning problem to solve in the financial world: Is a transaction fraudulent or not? <br>
