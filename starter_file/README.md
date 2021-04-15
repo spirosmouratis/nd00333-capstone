@@ -3,12 +3,11 @@
 
 The financial industry is shifting currently towards machine learning solutions and is trying to become data driven. <br>
 With that shift, previously manual tasks are being passed down to machine learning models. <br>
-One of these tasks is being able to detect if a transaction is fraudulent or not. <br>
-Each row of the dataset 
+One of these tasks is being able to detect if a transaction is fraudulent or not so that customers are not charged for items that they did not purchase.. <br>
+The names of the columns though for security reasons have been removed. <br>
+Usually in business cases like these we can expect demographic data, transaction speed, amount, location, etc <br>
+Here though we are not able to reverse engineer that since the data have been under PCA transformation<br>
 
-
-The project is not an original idea. It is coming from a kaggle compeition https://www.kaggle.com/mlg-ulb/creditcardfraud. <br>
-The problem in hand is one of the most common machine learning problem to solve in the financial world: Is a transaction fraudulent or not? <br>
 
 ## Dataset
 
@@ -55,6 +54,10 @@ And also here are the information about the best model and its runID. <br>
 ![](ModelRunID.png)
 ![](RunID.png)
 
+The parameters of the best model can be seen below. <br>
+
+![](estimators1.png)
+![](estimators2.png)
 
 ## Hyperparameter Tuning
 
@@ -93,6 +96,9 @@ And the result of testing two entries in the deployed model.
 
 ![](results.png)
 
+Before the deployment of the model we can save the environment dependencies. <br>
+![](env.png)
+![](env2.png)
 
 ## Screen Recording
 
